@@ -30,7 +30,7 @@
 			}
 			* ^ adds shape fill color when you hover over it with mouse*/
 
-			div {
+			.square {
 				/*border: solid 3px rgb(255, 255, 0);*/
 				width: 300px;
 				height: 300px;
@@ -48,7 +48,7 @@
 				border-radius: 50%;
 			}*/
 
-			div:first-child {
+			.square2 {
 				background-color: rgb(255, 153, 51);
 				width: 100px;
 				height: 100px;
@@ -56,12 +56,15 @@
 				position: absolute;
 			}
 
-			div:nth-child(2) {
+			.square3 {
 				background-color: rgb(255, 0, 255);
+				width: 500px;
+				height: 500px;
 				transform: rotate(-30deg);
 				transform-origin: bottom right;
 				transform: sclae(0.5, 2, 0.5);
 				position: absolute;
+				border-radius: 25%, 10px;
 				/* origin points can be written in words, %, or px */
 			}
 
