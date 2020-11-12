@@ -31,10 +31,17 @@
 
 			img{
 				width: 100%;
+				cursor: pointer;
 
 			}
 
-			@media screen and (min-width: 200px) and (max-width: 1600px){
+			div {
+			  background-image: url('clean-gray-paper.png');
+			  background-image: url('smooth-wall-dark.png');
+
+			}
+
+			/*@media screen and (min-width: 200px) and (max-width: 1600px){
 
 			/*header{
 
@@ -51,8 +58,34 @@
 
 			}*/
 
+			header {
+	  			background-color: transparent;
+	  			grid-area: 1 / 1 / 9 / 5;
+	  			font-family: Play;
+				/*/font-weight: lighter;/*/
+				font-size: 100px;
+				font-weight: bold;
+				color: rgb(225,255,0);
+				/*text-shadow: 0px;
+				text-shadow-color: rgba(225,255,255, 35%);*/
+				width: minmax(100px,500px);
+			}
+
+			.container {
+			  position: left;
+			  margin: auto;
+			  grid-gap: 10px;
+			  grid-template-areas: "header header"
+                       			   "h2"
+                       			   "h3" 
+                       			   "h4"
+			                       "body TBElink"
+			                     ;
+						}
+
+
 			body{ 
-				/*display: grid;*/
+				display: grid;
 				/*/grid-template-columns: 450px 450px;
 				grid-template-rows: repeat(3, 450px);/*/
 				background-color: rgb(0,0,5);
@@ -64,20 +97,12 @@
 					padding-top: 50px;
 					padding-bottom: 50px;
 					padding-left: 50px;
-				text-align: inherit;
-				justify-content: center;
-			 }
-
-			 body{
 			 	font-family: Poppins;
 			 	font-weight: thin;
 			 	font-size: 16px;
 			 	color: white;
 			 	margin-right: 250px;
-			 	max-width: 250px
-				min-width: 200px;
-				min-height: 500px;
-				max-height: 500px;
+			 	width: minmax(200px,400px);
 			
 			 }
 
@@ -90,17 +115,6 @@
 			 	padding-bottom: 75px;
 			 }
 
-
-			header{
-				font-family: Play;
-				/*/font-weight: lighter;/*/
-				font-size: 100px;
-				font-weight: bold;
-				color: rgb(225,255,0);
-				text-shadow: 5px;
-				text-shadow-color: rgb(225, 35%);
-				min-width: 700px;
-			}
 
 			h2{
 				font-family: Poppins;
@@ -136,20 +150,34 @@
 
 	<body>
 
-		<header>The Black Experience <br>in Graphic Design:</br>1968 + 2020</header>
-		<h2><em>[excerpt featuring Kaleena Sales + Steve A. Jones]</em></h2>
-		<h4>Edited by Stephen Coles</h4>
+		<div class="container">
+		    <header>
+		    	The Black Experience <br>in Graphic Design:</br>1968 + 2020
+		    </header>
+		    <h2>
+		    	<em>[excerpt featuring Kaleena Sales + Steve A. Jones]</em>
+		    </h2>
+			
+			<div class="h4">
+		      <h4>Edited by Stephen Coles</h4>
+		    </div>
+
+		    <div class="intro">
+		     	<p> Just over 50 years ago, at the apex of the Civil Rights Movement in the U.S., Dorothy Jackson interviewed five Black designers about “the frustrations and opportunities in a field where ‘flesh-colored’ means pink” for PRINT. The article was perhaps the first in the mainstream trade press to directly address the impacts of racism in the profession and describe the experience of Black practitioners in their own words.</p>
 
 
-		<p> Just over 50 years ago, at the apex of the Civil Rights Movement in the U.S., Dorothy Jackson interviewed five Black designers about “the frustrations and opportunities in a field where ‘flesh-colored’ means pink” for PRINT. The article was perhaps the first in the mainstream trade press to directly address the impacts of racism in the profession and describe the experience of Black practitioners in their own words.</p>
+			 	<p>What has changed since then? What remains the same? We asked today’s design leaders to compare their experience to the 1968 discussion and imagine what’s next. </p>
+			</div>
 
-
-		<p>What has changed since then? What remains the same? We asked today’s design leaders to compare their experience to the 1968 discussion and imagine what’s next. </p>
-
+	
+		  </div>
 		
 		<div class="TBElink">
 				<strong>
-					The Black Experience in Graphic Design, 1968
+				<em>
+					The Black Experience in Graphic Design
+				</em>
+					, 1968
 				</strong>
 
 			</div>
@@ -163,7 +191,11 @@
 		</a>
 			
 		<img src="https://static.wixstatic.com/media/b960fb_000b1250eb5a469386c6144dec012eb4~mv2.jpg/v1/fill/w_1820,h_1306,al_c,q_90,usm_0.66_1.00_0.01/b960fb_000b1250eb5a469386c6144dec012eb4~mv2.webp" alt="1968 BEINGD" minwidth="863px"minheight="574">
-			
+		
+		<div style="background-image: url('clean-gray-paper.png');">
+		</div>
+		<div style="background-image: url('smooth-wall-dark.png');">
+		</div>		
 
 		<div class="TBElink">
 			<strong>
@@ -171,13 +203,47 @@
 			</strong>
 		</div>
 
-		<p>
-			
-		</p>
+		
 
-		<p>
-			
-		</p>
+		<div class="TBElink">
+			<strong>
+			 	Kaleena Sales
+			</strong>
+		</div>	
+			<h4>
+			What in the article resonated most for you?	
+			</h4>
+				<p>
+				The idea that we have to deny our Blackness to operate successfully in the design world is something that really resonated with me. I’ve written about my experiences and the experiences of my students (mostly Black, attending an HBCU) feeling pressure to accommodate White culture in order to be successful. Those accommodations are sometimes made in the way we physically present ourselves (always being conscious of how we are being perceived), as well as in the design choices we make (designing to please Eurocentric standards).
+				</p>
+
+			<h4>
+			What in the article resonated most for you?	
+			</h4>
+				<p>
+				The idea that we have to deny our Blackness to operate successfully in the design world is something that really resonated with me. I’ve written about my experiences and the experiences of my students (mostly Black, attending an HBCU) feeling pressure to accommodate White culture in order to be successful. Those accommodations are sometimes made in the way we physically present ourselves (always being conscious of how we are being perceived), as well as in the design choices we make (designing to please Eurocentric standards).
+				</p>
+
+			<h4>
+			What has changed?	
+			</h4>
+				<p>
+				I think that there’s better understanding now of the ways in which systems have worked against the advancement of Black people as a whole, including in the design industry. So, I would say that we see with a wider lens now that the responsibility of elevating Black designers doesn’t have to fall on the shoulders of other Black people in the industry. Organizations, agencies and educational institutions that have the power to change systemic issues are really beginning to be held accountable for their contribution in this area.
+				</p>
+
+			<h4>
+			What remains the same?	
+			</h4>
+				<p>
+				I think it’s still very difficult to find design professionals who look like me. Before teaching, when I worked as an art director and designer, I’d never worked alongside another Black female designer (outside of volunteer activities). When my students visit design studios and agencies, I’ve rarely seen more than one to three Black designers.
+				</p>
+
+			<h4>
+			Do you see signs of future change?
+			</h4>
+				<p>
+				I think people are finally listening with the intent to learn. I’ve personally engaged in lots of meaningful dialogue recently and participated on some panel discussions with industry leaders who seem to genuinely want to make positive change. As an educator, I’ve seen substantial moves toward creating more inclusive learning materials, with efforts to decentralize European influences (International Typographic Style, Bauhaus, etc.) and include more focus on underrepresented cultural groups. These shifts in design education will undoubtedly impact the attitudes of the next generation of designers in positive ways.
+				</p>
 
 		<p>
 			
