@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         *compatibility of browser-->
 
-        <title> CSS-letter-1 </title>
+        <title> Letter Animation </title>
         <!--document title. shows up in url name-->
 
         <!--<meta name="description" content="">
@@ -30,14 +30,55 @@
 			}
 			* ^ adds shape fill color when you hover over it with mouse*/
 
+		@keyframes color{
+			10%{
+				background-color: white;
+			}
 
+			20%{
+				background-color: pink;
+			}
+
+			30%{
+				background-color: purple;
+				 }
+
+			40%{
+				background-color: blue;
+			}
+
+			50%{
+				background-color: black;
+			}
+
+			60%{
+				background-color: black;
+			}
+
+			70%{
+				background-color: blue;
+			}
+
+			80%{
+				background-color: purple;
+				 }
+
+			95%{
+				background-color: pink;
+			}
+
+			100%{
+				background-color: white;
+			}
+
+		}
 
 
 
 		/*////////////////////////G1////////////////////*/
 		
 
-		.g1-1square {
+		#g1-1square {
 				background-color: rgb(212, 240, 255);
 				width: 100px;
 				height: 145px;
@@ -46,16 +87,11 @@
 				position: absolute;
 				top: 60px;
 				right: 1100px;
-				transition-property: opacity;
-				transition-duration: 1s;
-				transition-timing-function: ease-in-out;
-		}
-		.g1-1square: hover{
-			opacity: 50%;
-			cursor: pointer;
+				animation: color 7.5s infinite;
+				animation-timing-function: ease-in-out;		
 		}
 
-		.g1-2square {
+		#g1-2square {
 				background-color: rgb(161, 58, 18);
 				width: 150px;
 				height: 150px;
@@ -67,16 +103,11 @@
 				/* origin points can be written in words, %, or px */
 				top: 55px;
 				right: 1207px;
-				transition-property: opacity;
-				transition-duration: 1s;
-				transition-timing-function: ease-in-out;
-		}
-		.g1-2square: hover{
-			opacity: 50%;
-			cursor: pointer;
-		}
+				animation: color 7.5s infinite;
+				animation-timing-function: ease-in-out;
+			}
 
-		.g1-3square {
+		#g1-3square {
 				background-color: rgb(255, 170, 0);
 				width: 150px;
 				height: 100px;
@@ -85,21 +116,15 @@
 				transform: scale(0.5, 2, 0.5);
 				position: absolute;
 				/* origin points can be written in words, %, or px */
-				transition-property: opacity;
-				transition-duration: 1s;
-				transition-timing-function: ease-in-out;
 				top: 550px;
 				top: 550px;
 				right: 1228px;
-				transform: skew(-30deg, 50deg);		
-		}
-		.g1-3square: hover{
-			opacity: 50%;
-			cursor: pointer;
+				transform: skew(-30deg, 50deg);
+				animation: color 7.5s infinite;
+				animation-timing-function: ease-in-out;		
 		}
 
-
-		.g1-4square{
+		#g1-4square{
 			background-color: rgb(92, 99, 85);
 			width: 100px;
 			height: 105px;
@@ -108,17 +133,11 @@
 			top: 522px;
 			right: 1092px;
 				/*border: solid 3px rgb(255, 255, 0);*/
-			transition-property: opacity;
-			transition-duration: 1s;
-			transition-timing-function: ease-in-out;
-		}
-		.g1-4square: hover{
-			opacity: 50%;
-			cursor: pointer;
+			animation: color 7.5s infinite;
+				animation-timing-function: ease-in-out;
 		}
 
-
-		.g1-5square {
+		#g1-5square {
 				background-color: rgb(47, 52, 56);
 				width: 13px;
 				height: 100px;
@@ -129,17 +148,11 @@
 				/* origin points can be written in words, %, or px */
 				top: 497px;
 				right: 1035px;
-				transition-property: opacity;
-				transition-duration: 1s;
-				transition-timing-function: ease-in-out;		
-		}
-		.g1-5square: hover{
-			opacity: 50%;
-			cursor: pointer;
+				animation: color 7.5s infinite;
+				animation-timing-function: ease-in-out;
 		}
 
-
-		.g1-6square{
+		#g1-6square{
 			background-color: rgb(255, 255, 255);
 			width: 90px;
 			height: 95px;
@@ -148,20 +161,10 @@
 			position: absolute;
 			top: 380px;
 			right: 1105px;
+			animation: color 7.5s infinite;
+				animation-timing-function: ease-in-out;	
 				/*border: solid 3px rgb(255, 255, 0);*/
-			transition-property: opacity;
-			transition-duration: 1s;
-			transition-timing-function: ease-in-out;
 		}
-		.g1-6square: hover{
-			opacity: 50%;
-			cursor: pointer;
-		}		
-
-
-
-
-
 
 
 
@@ -169,7 +172,7 @@
 
 
 
-		.g2-1square {
+		#g2-1square {
 				background-color: rgb(32, 46, 0);
 				width: 100px;
 				height: 145px;
@@ -178,9 +181,11 @@
 				position: absolute;
 				top: 60px;
 				right: 625px;
+				animation: color 7.5s infinite;
+				animation-timing-function: ease-in-out;
 		}
 
-		.g2-2square {
+		#g2-2square {
 				background-color: rgb(221, 224, 0);
 				width: 150px;
 				height: 150px;
@@ -192,9 +197,11 @@
 				/* origin points can be written in words, %, or px */
 				top: 55px;
 				right: 732px;
+				animation: color 7.5s infinite;
+				animation-timing-function: ease-in-out;
 		}
 
-		.g2-3square {
+		#g2-3square {
 				background-color: rgb(255, 224, 224);
 				width: 150px;
 				height: 100px;
@@ -205,10 +212,12 @@
 				/* origin points can be written in words, %, or px */
 				top: 550px;
 				right: 753px;
-				transform: skew(-30deg, 50deg)
+				transform: skew(-30deg, 50deg);
+				animation: color 7.5s infinite;
+				animation-timing-function: ease-in-out;
 		}
 
-		.g2-4square{
+		#g2-4square{
 			background-color: rgb(105, 16, 56);
 			width: 100px;
 			height: 105px;
@@ -217,9 +226,11 @@
 			top: 522px;
 			right: 617px;
 				/*border: solid 3px rgb(255, 255, 0);*/
+			animation: color 7.5s infinite;
+			animation-timing-function: ease-in-out;
 		}
 
-		.g2-5square {
+		#g2-5square {
 				background-color: rgb(0, 2, 54);
 				width: 13px;
 				height: 100px;
@@ -230,10 +241,12 @@
 				/* origin points can be written in words, %, or px */
 				top: 497px;
 				right: 560px;
+				animation: color 7.5s infinite;
+				animation-timing-function: ease-in-out;
 				
 		}
 
-		.g2-6square{
+		#g2-6square{
 			background-color: rgb(212, 99, 0);
 			width: 90px;
 			height: 95px;
@@ -243,6 +256,8 @@
 			top: 380px;
 			right: 630px;
 				/*border: solid 3px rgb(255, 255, 0);*/
+			animation: color 7.5s infinite;
+				animation-timing-function: ease-in-out;
 		}
 
 
@@ -253,7 +268,7 @@
 
 	/*/////////////////////G3//////////////////////*/
 	
-		.g3-1square {
+		#g3-1square {
 				background-color: rgb(230, 77, 0);
 				width: 100px;
 				height: 145px;
@@ -262,9 +277,11 @@
 				position: absolute;
 				top: 60px;
 				right: 140px;
+				animation: color 7.5s infinite;
+				animation-timing-function: ease-in-out;
 		}
 
-		.g3-2square {
+		#g3-2square {
 				background-color: rgb(255, 162, 148);
 				width: 150px;
 				height: 150px;
@@ -276,9 +293,11 @@
 				/* origin points can be written in words, %, or px */
 				top: 55px;
 				right: 247px;
+				animation: color 7.5s infinite;
+				animation-timing-function: ease-in-out;
 		}
 
-		.g3-3square {
+		#g3-3square {
 				background-color: rgb(130, 80, 55);
 				width: 150px;
 				height: 100px;
@@ -289,10 +308,11 @@
 				/* origin points can be written in words, %, or px */
 				top: 550px;
 				right: 268px;
-				transform: skew(-30deg, 50deg)
-		}
+				transform: skew(-30deg, 50deg);
+				animation: color 7.5s infinite;
+				animation-timing-function: ease-in-out;		}
 
-		.g3-4square{
+		#g3-4square{
 			background-color: rgb(255, 167, 59);
 			width: 100px;
 			height: 105px;
@@ -301,9 +321,11 @@
 			top: 522px;
 			right: 132px;
 				/*border: solid 3px rgb(255, 255, 0);*/
+			animation: color 7.5s infinite;
+				animation-timing-function: ease-in-out;
 		}
 
-		.g3-5square {
+		#g3-5square {
 				background-color: rgb(181, 227, 138);
 				width: 13px;
 				height: 100px;
@@ -314,10 +336,13 @@
 				/* origin points can be written in words, %, or px */
 				top: 497px;
 				right: 75px;
+
+				animation: color 7.5s infinite;
+				animation-timing-function: ease-in-out;
 				
 		}
 
-		.g3-6square{
+		#g3-6square{
 			background-color: rgb(5, 53, 54);
 			width: 90px;
 			height: 95px;
@@ -326,8 +351,11 @@
 			position: absolute;
 			top: 380px;
 			right: 145px;
+
+			animation: color 7.5s infinite;
+				animation-timing-function: ease-in-out;
 				/*border: solid 3px rgb(255, 255, 0);*/
-		}	
+		}
 
 			</style>
 
@@ -336,30 +364,30 @@
 
 	<body>
 		
-			<div class="g1-1square"></div>
-			<div class="g1-2square"></div>
-			<div class="g1-3square"></div>
-			<div class="g1-4square"></div>
-			<div class="g1-5square"></div>
-			<div class="g1-6square"></div>
+			<div id="g1-1square"></div>
+			<div id="g1-2square"></div>
+			<div id="g1-3square"></div>
+			<div id="g1-4square"></div>
+			<div id="g1-5square"></div>
+			<div id="g1-6square"></div>
 		
 
 		
-			<div class="g2-1square"></div>
-			<div class="g2-2square"></div>
-			<div class="g2-3square"></div>
-			<div class="g2-4square"></div>
-			<div class="g2-5square"></div>
-			<div class="g2-6square"></div>
+			<div id="g2-1square"></div>
+			<div id="g2-2square"></div>
+			<div id="g2-3square"></div>
+			<div id="g2-4square"></div>
+			<div id="g2-5square"></div>
+			<div id="g2-6square"></div>
 		
 
 		
-			<div class="g3-1square"></div>
-			<div class="g3-2square"></div>
-			<div class="g3-3square"></div>
-			<div class="g3-4square"></div>
-			<div class="g3-5square"></div>
-			<div class="g3-6square"></div>
+			<div id="g3-1square"></div>
+			<div id="g3-2square"></div>
+			<div id="g3-3square"></div>
+			<div id="g3-4square"></div>
+			<div id="g3-5square"></div>
+			<div id="g3-6square"></div>
 		
 	
 	
