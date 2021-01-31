@@ -1,0 +1,50 @@
+<!D0CTYPE html>
+<html>
+  <head>
+    <title> GD4W20_NG </title>
+    <link href="style_interview.css" type="text/css" rel="stylesheet">
+    <link href="unknown-mx_copy-webfont.woff" rel="style">
+    <meta name="viewport" content="width=device-width">
+
+    <style>
+      body{
+        background-color: rgb(0,0,5);
+      }
+
+      @font-face{
+        font-family: Unknown-MX;
+        src: url(Unknown-MX copy.woff);
+      }
+
+      h1{
+        font-family: Unknown-MX;
+      }
+
+
+
+    </style>
+  </head>
+
+  <body>
+
+    <h1> GRAPHIC DESIGN FOR THE WEB_ </h1>
+    <h2> FALL 2020_ </h2>
+
+    <div class="info">
+      <h4> nailah golden_ </h4>
+      <h4> INSTRUCTOR: minkyoung kim_ </h4>
+      <h4> ngolden@risd.edu_ <h4>
+    </div>
+
+
+    <div class="work">
+
+    </div>
+
+
+    <div class=""
+
+
+
+  </body>
+</html>
