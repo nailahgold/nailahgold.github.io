@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <!-- <meta charset="utf-8">
+       	*charset: encodes all web characters
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        *compatibility of browser-->
+
+        <title> CSS-letter-1 </title>
+        <!--document title. shows up in url name-->
+
+        <!--<meta name="description" content="">
+        *keywords for when you google the site
+
+        <meta name="viewport" content="width=device-width">
+        *tells the browser to render site at width of device. can be wonky, may or may not work.
+        -->
+
+
+		<style>
+
+			body {
+				background-color: rgb(20, 20, 25);
+			}/* i luv rich black <333 */
+
+		/*div:hover{
+
+				background-color: rgb(0, 0, 5);
+			}
+			* ^ adds shape fill color when you hover over it with mouse*/
+
+
+
+
+
+		/*////////////////////////G1////////////////////*/
+		
+
+		.g1-1square {
+				background-color: rgb(212, 240, 255);
+				width: 100px;
+				height: 145px;
+				transform-origin: top left;
+				transform: skew(-10deg, 50deg);
+				position: absolute;
+				top: 60px;
+				right: 1100px;
+				transition-property: opacity;
+				transition-duration: 1s;
+				transition-timing-function: ease-in-out;
+		}
+
+		.g1-1square: hover{
+			opacity: 50%;
+			cursor: pointer;
+
+		}
+
+
+		.g1-2square {
+				background-color: rgb(161, 58, 18);
+				width: 150px;
+				height: 150px;
+				transform: rotate(-59deg);
+				transform-origin: top right;
+				transform: scale(0.5, 2, 0.5);
+				transform: skew(-10deg, -60deg);
+				position: absolute;
+				/* origin points can be written in words, %, or px */
+				top: 55px;
+				right: 1207px;
+				transition-property: opacity;
+				transition-duration: 1s;
+				transition-timing-function: ease-in-out;
+		}
+		.g1-1square: hover{
+			opacity: 50%;
+			cursor: pointer;
+
+
+		}
+
+
+		.g1-3square {
+				background-color: rgb(255, 170, 0);
+				width: 150px;
+				height: 100px;
+				transform: rotate(-120deg);
+				transform-origin: bottom right;
+				transform: scale(0.5, 2, 0.5);
+				position: absolute;
+				/* origin points can be written in words, %, or px */
+				transition-property: opacity;
+				transition-duration: 1s;
+				transition-timing-function: ease-in-out;
+				top: 550px;
+				right: 1228px;
+				transform: skew(-30deg, 50deg);
+
+		}
+		.g1-1square: hover{
+			opacity: 50%;
+			cursor: pointer;
+
+		}
+
+
+		.g1-4square{
+			background-color: rgb(92, 99, 85);
+			width: 100px;
+			height: 105px;
+			transform: skew(-30deg, -30deg);
+			position: absolute;
+			top: 522px;
+			right: 1092px;
+				/*border: solid 3px rgb(255, 255, 0);*/
+		}
+		.g1-1square: hover{
+			opacity: 50%;
+			cursor: pointer;
+
+		}
+
+
+
+		.g1-5square {
+				background-color: rgb(47, 52, 56);
+				width: 13px;
+				height: 100px;
+				transform-origin: top left;
+				transform: skew(-33deg, 95deg);
+				transform: scale(0.5, 2, 0.5);
+				position: absolute;
+				/* origin points can be written in words, %, or px */
+				top: 497px;
+				right: 1035px;
+				
+		}
+		.g1-1square: hover{
+			opacity: 50%;
+			cursor: pointer;
+
+		}
+
+
+
+		.g1-6square{
+			background-color: rgb(255, 255, 255);
+			width: 90px;
+			height: 95px;
+			transform-origin: bottom;
+			transform: skew(-33deg, -35deg);
+			position: absolute;
+			top: 380px;
+			right: 1105px;
+				/*border: solid 3px rgb(255, 255, 0);*/
+		}
+		.g1-1square: hover{
+			opacity: 50%;
+			cursor: pointer;
+
+		}	
+
+
+
+
+
+
+
+
+		/*////////////////////////G2////////////////////*/
+
+
+
+		.g2-1square {
+				background-color: rgb(32, 46, 0);
+				width: 100px;
+				height: 145px;
+				transform-origin: top left;
+				transform: skew(-10deg, 50deg);
+				position: absolute;
+				top: 60px;
+				right: 625px;
+		}
+
+		.g2-2square {
+				background-color: rgb(221, 224, 0);
+				width: 150px;
+				height: 150px;
+				transform: rotate(-59deg);
+				transform-origin: top right;
+				transform: scale(0.5, 2, 0.5);
+				transform: skew(-10deg, -60deg);
+				position: absolute;
+				/* origin points can be written in words, %, or px */
+				top: 55px;
+				right: 732px;
+		}
+
+		.g2-3square {
+				background-color: rgb(255, 224, 224);
+				width: 150px;
+				height: 100px;
+				transform: rotate(-120deg);
+				transform-origin: bottom right;
+				transform: scale(0.5, 2, 0.5);
+				position: absolute;
+				/* origin points can be written in words, %, or px */
+				top: 550px;
+				right: 753px;
+				transform: skew(-30deg, 50deg)
+		}
+
+		.g2-4square{
+			background-color: rgb(105, 16, 56);
+			width: 100px;
+			height: 105px;
+			transform: skew(-30deg, -30deg);
+			position: absolute;
+			top: 522px;
+			right: 617px;
+				/*border: solid 3px rgb(255, 255, 0);*/
+		}
+
+		.g2-5square {
+				background-color: rgb(0, 2, 54);
+				width: 13px;
+				height: 100px;
+				transform-origin: top left;
+				transform: skew(-33deg, 95deg);
+				transform: scale(0.5, 2, 0.5);
+				position: absolute;
+				/* origin points can be written in words, %, or px */
+				top: 497px;
+				right: 560px;
+				
+		}
+
+		.g2-6square{
+			background-color: rgb(212, 99, 0);
+			width: 90px;
+			height: 95px;
+			transform-origin: bottom;
+			transform: skew(-33deg, -35deg);
+			position: absolute;
+			top: 380px;
+			right: 630px;
+				/*border: solid 3px rgb(255, 255, 0);*/
+		}
+
+
+
+
+
+
+
+	/*/////////////////////G3//////////////////////*/
+	
+		.g3-1square {
+				background-color: rgb(230, 77, 0);
+				width: 100px;
+				height: 145px;
+				transform-origin: top left;
+				transform: skew(-10deg, 50deg);
+				position: absolute;
+				top: 60px;
+				right: 140px;
+		}
+
+		.g3-2square {
+				background-color: rgb(255, 162, 148);
+				width: 150px;
+				height: 150px;
+				transform: rotate(-59deg);
+				transform-origin: top right;
+				transform: scale(0.5, 2, 0.5);
+				transform: skew(-10deg, -60deg);
+				position: absolute;
+				/* origin points can be written in words, %, or px */
+				top: 55px;
+				right: 247px;
+		}
+
+		.g3-3square {
+				background-color: rgb(130, 80, 55);
+				width: 150px;
+				height: 100px;
+				transform: rotate(-120deg);
+				transform-origin: bottom right;
+				transform: scale(0.5, 2, 0.5);
+				position: absolute;
+				/* origin points can be written in words, %, or px */
+				top: 550px;
+				right: 268px;
+				transform: skew(-30deg, 50deg)
+		}
+
+		.g3-4square{
+			background-color: rgb(255, 167, 59);
+			width: 100px;
+			height: 105px;
+			transform: skew(-30deg, -30deg);
+			position: absolute;
+			top: 522px;
+			right: 132px;
+				/*border: solid 3px rgb(255, 255, 0);*/
+		}
+
+		.g3-5square {
+				background-color: rgb(181, 227, 138);
+				width: 13px;
+				height: 100px;
+				transform-origin: top left;
+				transform: skew(-33deg, 95deg);
+				transform: scale(0.5, 2, 0.5);
+				position: absolute;
+				/* origin points can be written in words, %, or px */
+				top: 497px;
+				right: 75px;
+				
+		}
+
+		.g3-6square{
+			background-color: rgb(5, 53, 54);
+			width: 90px;
+			height: 95px;
+			transform-origin: bottom;
+			transform: skew(-33deg, -35deg);
+			position: absolute;
+			top: 380px;
+			right: 145px;
+				/*border: solid 3px rgb(255, 255, 0);*/
+		}	
+
+			</style>
+
+	</head>
+
+
+	<body>
+		
+			<div class="g1-1square"></div>
+			<div class="g1-2square"></div>
+			<div class="g1-3square"></div>
+			<div class="g1-4square"></div>
+			<div class="g1-5square"></div>
+			<div class="g1-6square"></div>
+		
+
+		
+			<div class="g2-1square"></div>
+			<div class="g2-2square"></div>
+			<div class="g2-3square"></div>
+			<div class="g2-4square"></div>
+			<div class="g2-5square"></div>
+			<div class="g2-6square"></div>
+		
+
+		
+			<div class="g3-1square"></div>
+			<div class="g3-2square"></div>
+			<div class="g3-3square"></div>
+			<div class="g3-4square"></div>
+			<div class="g3-5square"></div>
+			<div class="g3-6square"></div>
+		
+	
+	
+
+    </body>
+</html>

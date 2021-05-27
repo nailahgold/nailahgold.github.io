@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Interview Layout Stuff </title>
+		<link href="style_interview.css" type="text/css" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="style">
+
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Monserrat+Alternates&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Exo–2&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+
+		<style>
+
+		
+			img{
+				width: 100%;
+				cursor: pointer;
+			}
+
+			body {
+			  /*background-image: url('clean-gray-paper.png');*/
+				background-color: rgb(0,0,5);
+			}
+
+			header {
+	  			background-color: transparent;
+	  			grid-area: 1 / 1 / 9 / 5;
+	  			font-family: Play;
+				/*/font-weight: lighter;/*/
+				font-size: 100px;
+				font-weight: bold;
+				color: rgb(225,255,0);
+				/*text-shadow: 0px;
+				text-shadow-color: rgba(225,255,255, 35%);*/
+				width: minmax(100px,500px);
+			}
+
+			h4{
+				color: rgb(100,0,255);
+			}
+
+			.header1 {
+			  width: 67vw;
+			  height: 65vh;
+			  margin: 50px;
+				padding: 20px;
+			  border: 1px solid blue;
+			  display: flex;
+			  flex-direction: row;
+				flex-wrap: wrap;
+				overflow: auto;
+				position: static;
+			}
+
+			.subheader {
+				font-family: Poppins;
+				font-weight: bold;
+				text-align: left;
+				color: rgb(255, 0, 70);
+				width: 100%;
+			  height: 40%;
+			  margin: 0;
+			  padding: 0;
+				position:inherit;
+			  /*border: 1px solid red;*/
+			}
+
+			.subinfo{
+				width: 90vw;
+			  height: 70vh;
+			  margin: 5vw 15vh;
+					margin-bottom: 90px;
+			  border: 1px solid blue;
+			  padding:0;
+			  display: flex;
+			  flex-direction: row;
+				flex-wrap: wrap;
+				overflow: auto;
+				justify-content: center;
+			  /*border: 1px solid red;*/
+			}
+
+			img{
+				opacity: 0.75;
+			}
+			img:hover{
+				opacity: 0.5;
+			}
+
+			.subinfo-child1{
+				font-family: Poppins;
+				font-weight: bold;
+				text-align: left;
+				color: white;
+				/*min-width: 600px;*/
+				width: 25%;
+			  height: 60%;
+			  margin: 0;
+			  padding: 10px;
+				position:relative;
+				justify-content: center;
+			  /*border: 1px solid red;*/
+			}
+
+			.subinfo-child2{
+				font-family: Poppins;
+				font-weight: bold;
+				text-align: left;
+				width:55%;
+			  height: 90%;
+			  margin: 0px;
+			  padding: 10px;
+				position:inherit;
+			  /*border: 1px solid red;*/
+				float: right;
+				display: inline-block;
+			}
+
+			/* 1968 ARTICLE */
+
+						.TBE68-head{
+							/*border: 1px solid blue;*/
+							width: 97vw;
+							height: 10vh;
+							margin: 20px;
+							font-family: Rajdhani;
+							font-style: bold;
+							font-size: 25px;
+						 	color: rgb(100,0,255);
+							justify-content: center;
+							display: flex;
+							flex-direction: row;
+							margin-bottom: 80px;
+						}
+
+
+			/* INTERVIEWS */
+
+			.TBE20-head{
+				display: flex;
+				flex-direction: row;
+				width: 97vw;
+				height: 25vh;
+				margin: 20px;
+			  margin-bottom: 20px;
+				/*border: 1px solid blue;*/
+				font-family: Rajdhani;
+				font-size: 25px;
+				color: rgb(255,85,0);
+				justify-content: center;
+				min-width: 500px;
+			}
+
+			.kaleena-head{
+				display: flex;
+			 	flex-direction: row;
+			 	position: relative;
+				width: 40vw;
+			  height: 20vh;
+				padding-top: 0px;
+				justify-content: center;
+				margin-left: 20px;
+			 /* border: 1px solid blue;*/
+				font-family: Poppins;
+				font-weight: bold;
+				font-size: 40px;
+				text-align: left;
+				color: rgb(255, 0, 70);
+			}
+
+			.kaleena-copy{
+				display: flex;
+				flex-direction: row;
+				width: 97vw;
+				height: 135vh;
+				margin: 20px;
+			  margin-bottom: 155px;
+				border: 1px solid blue;
+				font-family: Rajdhani;
+				font-size: 25px;
+				color: rgb(255,85,0);
+			}
+
+			.k-img{
+				/*min-width: 600px;*/
+				width:50%;
+			  height: 90%;
+			  margin: 10px;
+			  padding: 15px;
+				position:relative;
+			  /*border: 1px solid red;*/
+			}
+			.k-txt{
+				font-family: Poppins;
+				font-weight: bold;
+				font-size: 12pt;
+				text-align: left;
+				color: white;
+				/*min-width: 600px;*/
+				width: 67%;
+			  height: 90%;
+			  margin: 10px;
+			  padding: 15px;
+				position:relative;
+			  /*border: 1px solid red;*/
+			}
+
+			.forest-head {
+				display: flex;
+			 	flex-direction: row-reverse;
+			 	position: relative;
+				justify-content: right;
+				width: 88.5vw;
+			  height: 20vh;
+				padding-top: 0px;
+				margin-right: 20px;
+			  /*border: 1px solid blue;*/
+				font-family: Poppins;
+				font-weight: bold;
+				font-size: 40px;
+				text-align: center;
+				color: rgb(255,85,0);
+			}
+
+			.forest-copy{
+				display: flex;
+				flex-direction: row-reverse;
+				width: 97vw;
+				height: 180vh;
+				margin: 20px;
+			  margin-bottom: 155px;
+				border: 1px solid blue;
+				font-family: Rajdhani;
+				font-size: 25px;
+				color: rgb(255,85,0);
+			}
+
+			.f-img{
+				/*min-width: 600px;*/
+				width:50%;
+			  height: 90%;
+			  margin: 10px;
+			  padding: 15px;
+				position:relative;
+			  /*border: 1px solid red;*/
+			}
+
+			.f-txt{
+				font-family: Poppins;
+				font-weight: bold;
+				font-size: 12pt;
+				text-align: left;
+				color: white;
+				/*min-width: 600px;*/
+				width: 67%;
+			  height: 90%;
+			  margin: 10px;
+			  padding: 15px;
+				position:relative;
+			  /*border: 1px solid red;*/
+			}
+
+
+
+
+
+		</style>
+
+	</head>
+
+	<body>
+
+			<div style="background-image: url('clean-gray-paper.png');">
+			</div>
+
+		<div class="header1">
+				<header>
+					The Black Experience <br>in Graphic Design:</br>1968 + 2020
+				</header>
+
+				<div class="subheader">
+					<h2>
+			    	<em>[excerpt featuring Kaleena Sales + Forest Young]</em>
+			    </h2>
+					<h3>Edited by Stephen Coles</h2>
+				</div>
+		</div>
+
+		<div class="subinfo">
+				<div class="subinfo-child1">
+			     	<p><em> Just over 50 years ago, at the apex of the Civil Rights Movement in the U.S., Dorothy Jackson interviewed five Black designers about “the frustrations and opportunities in a field where ‘flesh-colored’ means pink” for PRINT. The article was perhaps the first in the mainstream trade press to directly address the impacts of racism in the profession and describe the experience of Black practitioners in their own words.</em></p>
+				 		<p><em>What has changed since then? What remains the same? We asked today’s design leaders to compare their experience to the 1968 discussion and imagine what’s next.</em></p>
+					</div>
+
+					<div class="subinfo-child2">
+						<p><a href="https://www.printmag.com/post/the-black-experience-in-graphic-design-1968-and-2020">
+							<img src="file.png" alt="1968 BEINGD" minwidth="536px"minheight="374">
+						</a></p>
+					</div>
+
+		</div>
+
+		<div class="TBE68-head">
+			<a href="https://www.printmag.com/post/the-black-experience-1968" target="_blank">
+					<h3>
+						<strong>
+							["The Black Experience, 1968: VIEW FULL TEXT HERE]
+						</strong>
+					</h3>
+			</a>
+		</div>
+
+
+		<div class="TBE20-head">
+			<h3><strong> : : : : : The Black Experience, 2020 : : : : :</strong></h3>
+		</div>
+
+
+
+		<div class="kaleena-head">
+			<h3> Kaleena Sales </h3>
+		</div>
+
+		<div class="kaleena-copy">
+			<div class="k-img">
+				<p><a href="https://kaleenasales.design/index.html">
+					<img src="kaleenasales.png" alt="1968 BEINGD" minwidth="574px"minheight=548px>
+				</a></p>
+			</div>
+
+			<div class="k-txt">
+				<h4><em>
+				What in the article resonated most for you?
+			</em></h4>
+					<p>
+					The idea that we have to deny our Blackness to operate successfully in the design world is something that really resonated with me. I’ve written about my experiences and the experiences of my students (mostly Black, attending an HBCU) feeling pressure to accommodate White culture in order to be successful. Those accommodations are sometimes made in the way we physically present ourselves (always being conscious of how we are being perceived), as well as in the design choices we make (designing to please Eurocentric standards).
+					</p>
+
+				<h4><em>
+				What has changed?
+			</em></h4>
+					<p>
+					I think that there’s better understanding now of the ways in which systems have worked against the advancement of Black people as a whole, including in the design industry. So, I would say that we see with a wider lens now that the responsibility of elevating Black designers doesn’t have to fall on the shoulders of other Black people in the industry. Organizations, agencies and educational institutions that have the power to change systemic issues are really beginning to be held accountable for their contribution in this area.
+					</p>
+
+				<h4><em>
+				What remains the same?
+			</em></h4>
+					<p>
+					I think it’s still very difficult to find design professionals who look like me. Before teaching, when I worked as an art director and designer, I’d never worked alongside another Black female designer (outside of volunteer activities). When my students visit design studios and agencies, I’ve rarely seen more than one to three Black designers.
+					</p>
+
+				<h4><em>
+				Do you see signs of future change?
+			</em></h4>
+					<p>
+					I think people are finally listening with the intent to learn. I’ve personally engaged in lots of meaningful dialogue recently and participated on some panel discussions with industry leaders who seem to genuinely want to make positive change. As an educator, I’ve seen substantial moves toward creating more inclusive learning materials, with efforts to decentralize European influences (International Typographic Style, Bauhaus, etc.) and include more focus on underrepresented cultural groups. These shifts in design education will undoubtedly impact the attitudes of the next generation of designers in positive ways.
+					</p>
+			</div>
+
+		</div>
+
+		<div class="forest-head">
+			<h3> Forest Young </h3>
+		</div>
+
+		<div class="forest-copy">
+			<div class="f-img">
+				<p><a href="https://www.instagram.com/emcray/?hl=en">
+					<img src="Forest_Young.jpg" alt="1968 BEINGD" minwidth="536px"minheight="374">
+				</a></p>
+			</div>
+
+			<div class="f-txt">
+				<h4><em>
+				What in the article resonated most for you?
+				</em></h4>
+					<p>
+					Alex Walker’s words from 1968 are haunting. He states that “most White designers who eventually become award-winning art directors or make lots of money spent short periods of time in various studios and agencies.” In short, the pathway to creating generational wealth is to have a successful “revolving door” career. With each successive jump, the professional designer is able to dramatically alter her salary trajectory, her exposure to new areas of practice, and broaden the reach and potency of her network. The gatekeeper friction working against BIPOC designers has catastrophic implications for the distribution of wealth. The token hires are ultimately self-serving to White employers, but ignore the best interests of their employees.
+					</p>
+
+				<h4><em>
+				What has changed?
+				</em></h4>
+					<p>
+						Today, the requirements to be a viable graphic design practitioner are: a phone, a laptop and access to design software. The world of 1968 required considerably more initial capital to run a successful business—office real estate, promotional stationery and studio equipment.
+					</p>
+					<p>
+						The internet—as a medium for exposure and discovery of BIPOC design work—represents another great mechanism to help even the playing field. While the client boardroom participants remain strikingly similar to 1968, it is much harder for White practitioners to take credit for the work of BIPOC designers given the transparency and speed of digital networks.
+					</p>
+
+				<h4><em>
+				What remains the same?
+				</em></h4>
+					<p>
+						Because graphic design, unlike architecture, lacks a licensing requirement, it is a profession dominated by networking and word-of-mouth referrals, and is thus particularly vulnerable to the compounding effects of “cultural fit.” Cultural fit, and its subsequent homogeneity, has become code for hermetically sealed White social contexts: parental networks, undergraduate fraternities and sororities, and art school alumni networks.
+					</p>
+
+						<p>
+						Peripheral entities like headhunters often play into these pre-existing cultural norms and represent candidates that have a greater placement potential, resulting in more consistent commissions. Educators are not incentivized to revise Eurocentric pedagogy and tunnel-visioned history due to tenure, elevated stature within the profession, and the successful professional placement of star students that validate the norm.
+					</p>
+
+				<h4><em>
+				Do you see signs of future change?
+				</em></h4>
+					<p>
+						Noticeable efforts to decolonize design education—from inspired teachers like Dori Tunstall at OCAD and Ramon Tejada at RISD—are affirming long overdue pedagogical shifts at top-tier programs. Nikole Hannah-Jones, the Pulitzer Prize-winning creator of the landmark 1619 Project, is providing adjacent pressure to reimagine calcified histories.
+					</p>
+
+						<p>
+						Though the great volume of BIPOC designers seeking to enter the profession is at once reassuring, it also creates a cascading effect—with a higher influx of potential candidates, employers are now doubling-down on premier art schools as a trusted filtering mechanism, further intensifying the exclusionary effect of top-tier access. The inertia of tokenism remains unbraked, as optical diversity is much more palatable than a sincere systemic overhaul.
+					</p>
+
+			</div>
+		</div>
+
+
+
+	</body>
+
+</html>

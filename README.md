@@ -1,1 +1,0 @@
-# nailahgold.github.io
